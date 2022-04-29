@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <div id="container">
+        <div id="grid-container""> 
+            <input type="text" id="b1" class="grid" readonly>
+            <input type="text" id="b2" class="grid" readonly>
+            <input type="text" id="b3" class="grid" readonly>
+            <br/><br/>
+
+            <input type="text" id="b4" class="grid" readonly>
+            <input type="text" id="b5" class="grid" readonly>
+            <input type="text" id="b6" class="grid" readonly>
+            <br/><br/>
+
+            <input type="text" id="b7" class="grid" readonly>
+            <input type="text" id="b8" class="grid" readonly>
+            <input type="text" id="b9" class="grid" readonly>
+
+            <div id="turn-indicator">
+                Player 1's Turn
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="node_modules/tictactoe-ai/dist/tictactoe.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
